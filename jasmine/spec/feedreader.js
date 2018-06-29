@@ -77,7 +77,7 @@ $(function() {
         });
 
         it('has been called and contain at least one feed.', function() {
-            expect($('.entry').length).not.toBe(0);
+            expect($('.feed .entry').length).not.toBe(0);
         });
     });
 
